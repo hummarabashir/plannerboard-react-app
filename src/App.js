@@ -91,7 +91,7 @@ const App = () => {
             <button type="submit">Add Todo</button>
           </form>
           {todos.length > 0 ? (
-            <div>
+            <div className="todo-grid">
           {todos.map((todo) => (
             <div key={todo.id} className="todo">
               <div className="todo-text">
