@@ -10,6 +10,12 @@ h1 {
     background-color: #c9b6ac;
     color: #54504f;
   }
+  .addInput::placeholder{
+    color: lightgrey;
+  }
+  .addInput{
+    color: #fff;
+  }
   .todo-grid{
     display: block;
     text-align: center;
@@ -38,6 +44,12 @@ h1 {
   }
   input[type='text'] {
     font-size: 18px;
+  }
+  input[type="checkbox"] {
+    accent-color: rgb(62, 138, 151);
+    }
+  .submit {
+    font-weight: bold;
   }
   .todo {
     display: inline-flex;
