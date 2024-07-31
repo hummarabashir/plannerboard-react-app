@@ -84,11 +84,12 @@ const App = () => {
           <form onSubmit={handleSubmit}>
             <input
               type="text"
-              placeholder="Type to add a note..."
+              className="addInput"
+              placeholder="Type to add a note ..."
               onChange={(e) => setTodo(e.target.value)}
               value={todo}
             />
-            <button type="submit">Add Todo</button>
+            <button className="submit" type="submit">Add Note</button>
           </form>
           {todos.length > 0 ? (
             <div className="todo-grid">
@@ -125,7 +126,7 @@ const App = () => {
           ))}
           </div>
           ) : (
-            <p className="subtext">Nothing to show here!</p>
+            <p className="subtext">You don't have any tasks yet!!            </p>
           )}
         </div>
       );
