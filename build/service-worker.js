@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/plannerboard-react-app/precache-manifest.7da4aec258e60c72b39bc0a0ea6f385d.js"
+  "/plannerboard-react-app/precache-manifest.8944dcc8d379d1b1525a3e8118ab6d04.js"
 );
 
 workbox.clientsClaim();
