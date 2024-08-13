@@ -46,7 +46,7 @@ h1 {
     font-size: 18px;
   }
   input[type="checkbox"] {
-    accent-color: rgb(62, 138, 151);
+    accent-color: #93af9c;
     }
   .submit {
     font-weight: bold;
@@ -68,8 +68,8 @@ h1 {
     display: inline-flex;
     justify-content: space-between;
     margin-bottom: 30px;
-    background-color: #ac998f;
-    color: aliceblue;
+    background-color: #bacbbf;
+    color: #454140;
   }
   
   button {
