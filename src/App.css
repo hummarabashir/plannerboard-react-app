@@ -57,7 +57,7 @@ h1 {
     background-color: #94a89a;
     /* font-family: "Neucha", cursive; */
     font-size: 2.5rem;
-    line-height: 80px;
+    line-height: 20px;
     text-align: center;
     margin-bottom: 1rem;
     border-radius: 10px;
@@ -71,7 +71,12 @@ h1 {
     background-color: #bacbbf;
     color: #454140;
   }
-  
+  .smText{
+    font-size: small;
+    text-align: left;
+    border-top: 1px solid #74a4ac;
+    color: #3e8a97;
+  }
   button {
     font-size: 16px;
     background-color: rgb(62, 138, 151);
@@ -106,7 +111,7 @@ h1 {
     display: block;
 text-align: left;    
 height: 6rem;
-overflow: scroll;
+/* overflow: scroll; */
   }
   .todo-text .inputText {
     height: 4rem;
@@ -127,7 +132,7 @@ overflow: scroll;
   .todo-actions {
     display: flex;
     justify-content: space-between;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   .todo-actions button {
     font-size: 16px;
