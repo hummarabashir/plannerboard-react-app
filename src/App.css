@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
 h1 {
     text-align: center;
     font-family: monospace;
@@ -7,9 +10,24 @@ h1 {
   }
 
   html, body {
-    background-color: #c9b6ac;
-    color: #54504f;
+    /* background-color: #f6cfcf; */
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #8f5473;
+    font-family: 'Lato', sans-serif
   }
+  h1{
+    font-family: 'Damion', cursive;
+    font-size: 5rem;
+  }
+  .appheader {
+    background: #3e8a97;
+    background: linear-gradient(198deg, #3e8a97 19%, #bacbbf 91%);
+    height: 20px;
+    width: auto;
+  }
+
   .addInput::placeholder{
     color: lightgrey;
   }
@@ -32,21 +50,21 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-    background-color: #ac998f;
+    background-color: #8f5473;
     height: 4rem;
   }
   form input {
     padding: 4px 8px;
     flex-grow: 1;
     margin-right: 16px;
-    background: rgb(62, 138, 151);
+    background: rgb(143 84 115);
     border: none;
   }
   input[type='text'] {
     font-size: 18px;
   }
   input[type="checkbox"] {
-    accent-color: #93af9c;
+    accent-color: #cf759b;
     }
   .submit {
     font-weight: bold;
@@ -62,24 +80,24 @@ h1 {
     margin-bottom: 1rem;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 2px 8px 5px #9c9696;
+    box-shadow: 2px 8px 5px #e8b0ce;
     width: 16rem;
     margin-right: 1rem;
     display: inline-flex;
     justify-content: space-between;
     margin-bottom: 30px;
-    background-color: #bacbbf;
+    background-color: #f4dce6;
     color: #454140;
   }
   .smText{
     font-size: small;
     text-align: left;
-    border-top: 1px solid #74a4ac;
-    color: #3e8a97;
+    border-top: 1px solid #cf759b;
+    color: #cf759b;
   }
   button {
     font-size: 16px;
-    background-color: rgb(62, 138, 151);
+    background-color: rgb(207 117 155);
     color: #fff;
     border-radius: 8px;
     border: none;
@@ -136,7 +154,7 @@ height: 6rem;
   }
   .todo-actions button {
     font-size: 16px;
-    background-color: rgb(62, 138, 151);
+    background-color: rgb(143 84 115);
     color: #fff;
     border-radius: 8px;
     border: none;

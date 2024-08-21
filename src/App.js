@@ -95,6 +95,8 @@ const App = () => {
     }, [todos]);
 
     return (
+      <>
+      {/* <header class="appheader"></header> */}
         <div id="todo-list">
           <h1>Planner Dashboard</h1>
           <form onSubmit={handleSubmit}>
@@ -157,6 +159,8 @@ const App = () => {
             <p className="subtext">You don't have any tasks yet!!            </p>
           )}
         </div>
+        </>
+
       );
     };
 
