@@ -1,5 +1,5 @@
 <div align="center">
-<img width="80" src="app-icon.png" />
+<img width="80" src="./public/favicon.png" />
 </div>
 <h1 align="center">Planner Dashboard React App</h1>
 <h2>🗣️ About this project</h2>
