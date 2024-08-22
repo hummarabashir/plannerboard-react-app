@@ -1,6 +1,6 @@
 {
   "name": "todos",
-  "version": "0.3.0",
+  "version": "0.7.0",
   "private": true,
   "homepage": "https://hummarabashir.github.io/plannerboard-react-app",
   "dependencies": {
